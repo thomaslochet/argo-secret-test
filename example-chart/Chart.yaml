@@ -1,5 +1,0 @@
-apiVersion: v1
-name: helloworld
-description: helloworld chart
-version: 1.0.0
-home:   https://s3.dev.thomaslochet.me/helm
