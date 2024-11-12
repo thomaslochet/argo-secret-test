@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   helloworld:
   - apiVersion: v1
-    created: "2024-11-12T15:04:20.58981665+01:00"
+    created: "2024-11-12T15:06:10.758644662+01:00"
     description: helloworld chart
-    digest: b11772eb6ceeb25ae25ec728742c61282d81a12f80613eb7c4bcd495d80183ae
+    digest: 0a5349f50829f87ea9bfe6110fbfe2db5a5e21fbeeab6f6c0f0f2e8b5338e2a4
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.0.tgz
-    version: 1.0.0
-generated: "2024-11-12T15:04:20.577465853+01:00"
+    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-11-12T15:06:10.743478337+01:00"
