@@ -1,0 +1,10 @@
+helloworld:
+  namespace: default
+  image:
+    name: nginx
+    tag: latest
+    pullPolicy: IfNotPresent
+  secrets:
+    path: 
+    secret1: secret1
+    secret2: secret2

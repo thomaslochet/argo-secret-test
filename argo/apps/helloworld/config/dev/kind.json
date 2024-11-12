@@ -1,0 +1,12 @@
+[
+  {
+    "env": "dev",
+    "infra": "kind",
+    "cluster_name": "kind",
+    "namespace": "thomaslochet",
+    "release_name": "thomaslochet",
+    "app": "thomaslochet",
+    "helm_repo": "https://s3.dev.thomaslochet.me/helloworld-chart",
+    "chart_version": "1.0.0"
+  }
+]

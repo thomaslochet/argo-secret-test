@@ -1,0 +1,34 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: helloworld-apps
+spec:
+  syncPolicy:
+    preserveResourcesOnDeletion: true
+  generators:
+  - git:
+      repoURL: https://gitlab.thalesdigital.io/thomas.lochet.e/argo-secret-test.git
+      revision: main
+      files:
+      - path: "argo/apps/helloworld/config/**/*.json"
+  template:
+    metadata:
+      name: 'helloworld-{{infra}}-{{app}}'
+    spec:
+      project: default
+      sources:
+        - repoURL: '{{helm_repo}}'
+          chart: helloworld
+          targetRevision: '{{chart_version}}'
+          helm:
+            releaseName: '{{release_name}}'
+            valueFiles:
+            - $values/values/{{infra}}/{{infra}}-myvalues.yml
+            - $values/values/{{infra}}/{{release_name}}/myvalues.yml
+        - repoURL: 'https://gitlab.thalesdigital.io/thomas.lochet.e/argo-secret-test.git' 
+          targetRevision: main
+          ref: values
+      destination:
+        name: '{{cluster_name}}'
+        namespace: '{{namespace}}'
+      syncPolicy: {}
