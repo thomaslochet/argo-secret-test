@@ -1,5 +1,5 @@
 helloworld:
-  namespace: default
+  namespace: thomaslochet
   image:
     name: nginx
     tag: latest

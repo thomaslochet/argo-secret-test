@@ -23,7 +23,6 @@ spec:
           helm:
             releaseName: '{{release_name}}'
             valueFiles:
-            - $values/values/{{infra}}/{{infra}}-myvalues.yml
             - $values/values/{{infra}}/{{release_name}}/myvalues.yml
         - repoURL: 'https://gitlab.thalesdigital.io/thomas.lochet.e/argo-secret-test.git' 
           targetRevision: main
