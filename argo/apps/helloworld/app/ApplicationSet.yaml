@@ -8,7 +8,7 @@ spec:
     preserveResourcesOnDeletion: true
   generators:
   - git:
-      repoURL: https://gitlab.thalesdigital.io/thomas.lochet.e/argo-secret-test.git
+      repoURL: https://github.com/thomaslochet/argo-secret-test.git
       revision: main
       files:
       - path: "argo/apps/helloworld/config/**/*.json"
@@ -25,7 +25,7 @@ spec:
             releaseName: '{{release_name}}'
             valueFiles:
             - $values/values/{{infra}}/{{release_name}}/myvalues.yml
-        - repoURL: 'https://gitlab.thalesdigital.io/thomas.lochet.e/argo-secret-test.git' 
+        - repoURL: 'https://github.com/thomaslochet/argo-secret-test.git' 
           targetRevision: main
           ref: values
       destination:

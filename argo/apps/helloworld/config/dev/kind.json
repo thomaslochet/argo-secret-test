@@ -6,7 +6,7 @@
     "namespace": "thomaslochet",
     "release_name": "thomaslochet",
     "app": "thomaslochet",
-    "helm_repo": "https://s3.dev.thomaslochet.me/helloworld-chart",
+    "helm_repo": "https://s3.dev.thomaslochet.me/helm",
     "chart_version": "1.0.0"
   }
 ]
