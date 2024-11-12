@@ -2,7 +2,7 @@
   {
     "env": "dev",
     "infra": "kind",
-    "cluster_name": "kind",
+    "cluster_name": "in-cluster",
     "namespace": "thomaslochet",
     "release_name": "thomaslochet",
     "app": "thomaslochet",
