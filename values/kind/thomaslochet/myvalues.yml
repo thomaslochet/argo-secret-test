@@ -5,6 +5,6 @@ helloworld:
     tag: latest
     pullPolicy: IfNotPresent
   secrets:
-    path: "helloworld/data/thomaslochet"
-    secret1: <secret1>
-    secret2: <secret2>
+    path: "citadel/data/artifactory"
+    secret1: <url>
+    secret2: <artifactory.thalesdigital.io_user>
