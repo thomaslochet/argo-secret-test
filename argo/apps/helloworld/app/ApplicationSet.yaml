@@ -24,7 +24,7 @@ spec:
           helm:
             releaseName: '{{release_name}}'
             valueFiles:
-            - $values/values/{{infra}}/{{release_name}}/myvalues.yml
+            - $values/values/{{infra}}/{{release_name}}/values.yaml
         - repoURL: 'https://github.com/thomaslochet/argo-secret-test.git' 
           targetRevision: main
           ref: values
