@@ -2,48 +2,57 @@ apiVersion: v1
 entries:
   helloworld:
   - apiVersion: v1
-    created: "2024-11-12T15:56:19.565732152+01:00"
+    created: "2024-11-13T17:02:25.499193832+01:00"
+    description: helloworld chart
+    digest: 6d28eae5f9b5c57e40a0983cbd21eff4a546c37e815c88c9824fa9f3d11905c8
+    home: https://s3.dev.thomaslochet.me/helm
+    name: helloworld
+    urls:
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v1
+    created: "2024-11-13T17:02:25.491637482+01:00"
     description: helloworld chart
     digest: 8e995c5c8089e92a99e1904fbe62ef9e75cdc8228f0c0a3d6f74614bce0506e3
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.6.tgz
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v1
-    created: "2024-11-12T15:56:19.552218102+01:00"
+    created: "2024-11-13T17:02:25.482722262+01:00"
     description: helloworld chart
     digest: d3a1f296bbf91a404460516f07aaa089907eb9d1ece89d62c134545ccee89714
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.5.tgz
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v1
-    created: "2024-11-12T15:56:19.541118978+01:00"
+    created: "2024-11-13T17:02:25.473224551+01:00"
     description: helloworld chart
     digest: 47127bad21962618348b80960ba55112785aa0620c8b6956fdd5877bf4c4c1b7
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.4.tgz
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
-    created: "2024-11-12T15:56:19.52766154+01:00"
+    created: "2024-11-13T17:02:25.46480402+01:00"
     description: helloworld chart
     digest: f1b88845e6c1cad3be012f809706b874699d3f074d6b3397fdb8624f738e59f2
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.3.tgz
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v1
-    created: "2024-11-12T15:56:19.514525437+01:00"
+    created: "2024-11-13T17:02:25.456435553+01:00"
     description: helloworld chart
     digest: 3c93af282b4859b0658bf4ac3163def3469ea7723a03158d347f244285b854be
     home: https://s3.dev.thomaslochet.me/helm
     name: helloworld
     urls:
-    - https://s3.dev.thomaslochet.me/helm/helloworld-1.0.2.tgz
+    - https://s3.dev.thomaslochet.me/helm/helloworld/helloworld-1.0.2.tgz
     version: 1.0.2
-generated: "2024-11-12T15:56:19.501972006+01:00"
+generated: "2024-11-13T17:02:25.444999757+01:00"
