@@ -12,5 +12,5 @@ helloworld:
     secretkey:
       key: foo
     remoteref:
-      key: infra/ovh/prod
+      key: infra/{{ .Values.global.infra }}/prod
       property: application_key
