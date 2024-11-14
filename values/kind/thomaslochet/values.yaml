@@ -8,3 +8,9 @@ helloworld:
     path: "citadel/data/artifactory"
     secret1: <url>
     secret2: <artifactory.thalesdigital.io_user>
+  externalsecrets:
+    secretkey:
+      key: foo
+    remoteref:
+      key: infra/ovh/prod
+      property: application_key

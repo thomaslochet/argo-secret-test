@@ -8,3 +8,9 @@ helloworld:
     path: 
     secret1: secret1
     secret2: secret2
+  externalsecrets:
+    secretkey:
+      key: foo
+    remoteref:
+      key: infra/ovh/prod
+      property: application_key
