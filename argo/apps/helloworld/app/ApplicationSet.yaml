@@ -25,9 +25,9 @@ spec:
             releaseName: '{{release_name}}'
             valueFiles:
             - $values/values/{{infra}}/{{release_name}}/values.yaml
-            values: |
-              global:
-                infra: {{infra}}
+            #values: |
+            #  global:
+            #    infra: {{infra}}
         - repoURL: 'https://github.com/thomaslochet/argo-secret-test.git' 
           targetRevision: main
           ref: values
